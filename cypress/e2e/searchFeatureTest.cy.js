@@ -9,9 +9,17 @@ describe('Search Feature', function() {
 	];
 	const homePage = new HomePage(),
 		wikiPage = new WikiPage();
+	
+	beforeEach(function() {
+		homePage.navigateToUrl('https://www.wikipedia.org/');
+	});
+	
+	after(async function () {
+		wikiPage.clearCookies();
+	});
 	searchTexts.forEach(searchText=>{
 		it(`verify that user gets to ${searchText} page.`, function() {
-			homePage.navigateToUrl('https://www.wikipedia.org/');
+		
 			homePage.typeinSearchTextBox(searchText);
 			homePage.clickOntheSearchButton();
 			homePage.verifyTitleOfPage(searchText);
