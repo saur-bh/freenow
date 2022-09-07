@@ -11,7 +11,7 @@ describe('Search Feature', function() {
 		wikiPage = new WikiPage();
 	
 	beforeEach(function() {
-		homePage.navigateToUrl('https://www.wikipedia.org/');
+		homePage.navigateToUrl('/');
 	});
 	
 	after(async function () {
