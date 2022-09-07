@@ -35,9 +35,9 @@ class BasePage {
     
 	/**
      * Function to navigate url provided .
-     * @property {String} URL -web address which needs to be visited.
+     * @property {String} URL -endpoint to visit keep '/' for base url
      * @example
-     * BasePage.naviagteToUrL("https://www.wikipedia.org/")
+     * BasePage.naviagteToUrL("/")
     */
     
 	navigateToUrl(visitUrl) {

@@ -4,10 +4,10 @@
   "description": "This is for freenow automation challenge",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open --e2e",
-    "cy:run:chrome": "cypress run --browser chrome",
-    "cy:run:edge": "cypress run --browser edge",
-    "cy.run:electron": "cypress run --browser electron"
+    "cy:open": "cypress open --e2e ",
+    "cy:run:chrome": "cypress run --browser chrome ",
+    "cy:run:edge": "cypress run --browser edge ",
+    "cy.run:electron": "cypress run --browser electron "
   },
   "keywords": [
     "automation",

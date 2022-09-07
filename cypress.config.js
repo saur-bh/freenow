@@ -22,5 +22,7 @@ module.exports = defineConfig({
 				await afterRunHook();
 			});
 		},
+		baseUrl:'https://www.wikipedia.org/',
+
 	},
 });
