@@ -1,4 +1,4 @@
-import { BasePage } from './BasePage';
+import { BasePage } from '../pages/basePage';
 /**
  * Class representing a HomePage.
  * @extends BasePage
