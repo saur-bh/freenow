@@ -4,7 +4,10 @@
   "description": "This is for freenow automation challenge",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy.run:electron": "cypress run --browser electron"
   },
   "keywords": [
     "automation",
@@ -12,5 +15,16 @@
     "cypress"
   ],
   "author": "Saurabh Verma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "eslint": "8.10.0",
+    "eslint-plugin-mocha": "10.0.3",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.5"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
 }
