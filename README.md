@@ -24,8 +24,8 @@ TDB
 * Navigate to desire location in your workstation.
 * Open cmd prompt for windows or terminal for mac. 
 * Change directory to location where you want to clone the project.
-* Type command ``
-* Must have NodeJS and NPM installed (https://nodejs.org/en/)
+* Type command `git clone https://github.com/saur-bh/freenow.git`
+* Open the folder in your favourite editor or VsCode.
 * Install dependencies by running `npm install`
 
 ## Running Tests
