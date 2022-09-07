@@ -1,7 +1,5 @@
 #  Wikipedia's application testing using cypress -RunBook
-
 The test was conducted on web browser ( Chrome V105.0.5195.102 , Edge V105 and Electron V105)
-
 ## Pre-Condition 
 Install node.js and npm on the system
 * Windows https://phoenixnap.com/kb/install-node-js-npm-on-windows
@@ -19,25 +17,21 @@ Install node.js and npm on the system
 ## Demo
 TDB
 
-
 ## Setup
-* Navigate to desire location in your workstation.
-* Open cmd prompt for windows or terminal for mac. 
-* Change directory to location where you want to clone the project.
-* Type command `git clone https://github.com/saur-bh/freenow.git`
+* Navigate to desire location in your workstation and clone the project.
+* Type command `git clone https://github.com/saur-bh/freenow.git` on the terminal. 
 * Open the folder in your favourite editor or VsCode.
 * Install dependencies by running `npm install`
 
 ## Running Tests
 
 * To run all  or  individual tests via GUI, run `npm run cy:open`
-* To run individual tests from command prompt , run `npm run cy:tests --glob 'cypress/integration/**/login.feature'`
 * To run test in different configuration from command prompt, type `npm run cy:run:chrome | cy:run:edge |cy.run:electron`
 
 ## Creation of New Test
 Our framework is based on the Page Object Model design pattern. 
-- If required create paage, create new file in cypress/e2e/pages i.e. PaintDetailsPage.js which will extend BasePage.js. 
-- Create new folder if not present under cypress/e2e/Test for module which test has to be written 
+- If required create paage, create new file in cypress/e2e/pages i.e. wikiPage.js which will extend BasePage.js. 
+- Create new folder if not present under cypress/e2e/test for module which test has to be written 
 - If module in present , create it block under specific test file.
 
 ## Viewing the Results 
