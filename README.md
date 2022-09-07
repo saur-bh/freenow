@@ -27,7 +27,7 @@ TDB
 
 * To run all  or  individual tests via GUI, run `npm run cy:open`
 * To run test in different configuration from command prompt, type `npm run cy:run:chrome | cy:run:edge |cy.run:electron`
-* To run test in CI use following link ![CircleCI](https://app.circleci.com/launchpad/invited?return-to=https%3A%2F%2Fapp.circleci.com%2Fpipelines%2Fgithub%2Fsaur-bh%2Ffreenow%3Finvite%3Dtrue&inviter=04463cb5-2995-4776-93de-407a68221473&invitePage=pipelines)
+* To run test in CI use following link [CircleCI](https://app.circleci.com/launchpad/invited?return-to=https%3A%2F%2Fapp.circleci.com%2Fpipelines%2Fgithub%2Fsaur-bh%2Ffreenow%3Finvite%3Dtrue&inviter=04463cb5-2995-4776-93de-407a68221473&invitePage=pipelines)
 
 
 ## Creation of New Test
