@@ -40,6 +40,7 @@ Our framework is based on the Page Object Model design pattern.
  - Once test is run , result will be store in cypress/reports which is html file.
  - Execution video can be located in cypress/videos.
  - To get the CI result view select the pipeline and expand it, then select cypress/run and get into artifact tab.
+ ![artifcat](./image/artifcat.png)
  
 
 ## Enhancement
