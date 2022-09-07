@@ -2,14 +2,22 @@ import {HomePage} from './pages/homePage';
 import { WikiPage } from './pages/wikiPage';
 
 describe('Search Feature', function() {
+	const searchTexts = [
+		'Apollo 11',
+		'Apollo 13',
+		'Apollo 12',
+	];
 	const homePage = new HomePage(),
 		wikiPage = new WikiPage();
-	it('verify that user gets to ${searchTest} page. ', function() {
-		homePage.navigateToUrl('https://www.wikipedia.org/');
-		homePage.typeinSearchTextBox('Apollo 11');
-		homePage.clickOntheSearchButton();
-		homePage.verifyTitleOfPage('Apollo 11');
-		wikiPage.verifyH3title('Apollo 11');
+	searchTexts.forEach(searchText=>{
+		it(`verify that user gets to ${searchText} page.`, function() {
+			homePage.navigateToUrl('https://www.wikipedia.org/');
+			homePage.typeinSearchTextBox(searchText);
+			homePage.clickOntheSearchButton();
+			homePage.verifyTitleOfPage(searchText);
+			wikiPage.verifyH3title(searchText);
+		});
 
 	});
+	
 });
