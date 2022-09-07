@@ -19,10 +19,13 @@ describe('Search Feature', function() {
 	});
 	searchTexts.forEach(searchText=>{
 		it(`verify that user gets to ${searchText} page.`, function() {
-		
+			//type in the seachBox
 			homePage.typeinSearchTextBox(searchText);
+			//click on search button
 			homePage.clickOntheSearchButton();
+			// verify title
 			homePage.verifyTitleOfPage(searchText);
+			//verify the h3 text
 			wikiPage.verifyH3title(searchText);
 		});
 
