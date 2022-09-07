@@ -27,7 +27,7 @@ TDB
 
 * To run all  or  individual tests via GUI, run `npm run cy:open`
 * To run test in different configuration from command prompt, type `npm run cy:run:chrome | cy:run:edge |cy.run:electron`
-* To run test in CI use following link https://app.circleci.com/launchpad/invited?return-to=https%3A%2F%2Fapp.circleci.com%2Fpipelines%2Fgithub%2Fsaur-bh%2Ffreenow%3Finvite%3Dtrue&inviter=04463cb5-2995-4776-93de-407a68221473&invitePage=pipelines
+* To run test in CI use following link ![CircleCI](https://app.circleci.com/launchpad/invited?return-to=https%3A%2F%2Fapp.circleci.com%2Fpipelines%2Fgithub%2Fsaur-bh%2Ffreenow%3Finvite%3Dtrue&inviter=04463cb5-2995-4776-93de-407a68221473&invitePage=pipelines)
 
 
 ## Creation of New Test
@@ -41,8 +41,8 @@ Our framework is based on the Page Object Model design pattern.
  - Execution video can be located in cypress/videos.
  - To get the CI result view select the pipeline and expand it, then select cypress/run and get into artifact tab.
  ![artifcat](./image/artifcat.png)
- 
-
+ - Select the cypress/reports/html/index.html to view result 
+ - Select cypress/videos/searchFeatureTest.cy.js.mp4 to view video playback
 ## Enhancement
   * Seperation of identifer in different folder.
   * Publish report via gitpages or on slack channel 
