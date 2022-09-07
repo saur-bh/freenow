@@ -5,7 +5,7 @@ module.exports = defineConfig({
 	reporter: 'cypress-mochawesome-reporter',
 	reporterOptions: {
 		charts: true,
-		reportPageTitle: 'Automation Test Resport for Gerimedica',
+		reportPageTitle: 'Automation Test Resport for Wikipedia.',
 		embeddedScreenshots: true,
 		inlineAssets: true,
 		saveAllAttempts: false,
